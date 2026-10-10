@@ -19,6 +19,7 @@ plugins:
   - jekyll-sitemap
 
 exclude:
+  - Change1.md
   - Gemfile
   - Gemfile.lock
   - README.md

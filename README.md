@@ -9,7 +9,7 @@ repository root, ready for GitHub Pages to publish from `main` and `/(root)`.
 - Edit `index.md`, `about.md`, `experience.md`, or `contact.md` to change page
   content. Keep the YAML front matter at the top of each file.
 - Add work-history details only when they are ready to be public. The experience
-  page currently marks missing information as a placeholder.
+  page uses the supplied career history, with the three McKinsey roles grouped together.
 - Shared page structure is in `_layouts/default.html` and `_includes/`.
 - Edit `assets/css/main.css` to change the appearance. The theme control and its
   saved preference are in `assets/js/theme.js`.
@@ -62,7 +62,7 @@ Pages. The `jekyll-seo-tag` and `jekyll-sitemap` plugins provide metadata and
 
 - The visual direction follows the clean, modern typography preference; no
   reference websites were supplied.
-- Only the professional summary supplied for this site is used. Work history is
-  clearly marked as a placeholder until details are provided.
+- The professional summary and work history use only the information supplied
+  for this site. Dates are preserved as supplied, including overlapping roles.
 - The email address on the Contact page is intentionally public and opens a
   visitor's configured email application.
