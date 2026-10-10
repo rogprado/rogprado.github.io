@@ -142,7 +142,9 @@ button:focus-visible {
   text-underline-offset: 0.38rem;
 }
 
-.theme-toggle {
+.theme-toggle,
+.contact-copy,
+.contact-link {
   min-height: 2.5rem;
   padding: 0.45rem 0.7rem;
   border: 1px solid var(--line);
@@ -155,8 +157,41 @@ button:focus-visible {
   cursor: pointer;
 }
 
-.theme-toggle:hover {
+.theme-toggle:hover,
+.contact-copy:hover,
+.contact-link:hover {
   border-color: var(--accent);
+}
+
+.contact-copy,
+.contact-link {
+  min-height: 2.75rem;
+  font-size: 1rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  text-decoration: none;
+}
+
+.contact-copy:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.copy-status {
+  min-height: 3em;
+  margin: 0.75rem 0;
 }
 
 .site-main {

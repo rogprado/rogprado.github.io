@@ -20,6 +20,7 @@ plugins:
 
 exclude:
   - Change1.md
+  - Change2.md
   - Gemfile
   - Gemfile.lock
   - README.md
