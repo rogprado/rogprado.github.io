@@ -1,0 +1,29 @@
+title: Rodrigo Prado
+description: "Consultant with 4+ years of experience in operations, growth strategy, and transformation."
+url: "https://rogprado.github.io"
+baseurl: ""
+lang: en
+permalink: /:title/
+
+author:
+  name: Rodrigo Prado
+
+social:
+  name: Rodrigo Prado
+  links:
+    - https://github.com/rogprado
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - replit.md
+  - .replit
+  - .replitignore
+  - node_modules
