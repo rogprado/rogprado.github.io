@@ -142,7 +142,8 @@ button:focus-visible {
   text-underline-offset: 0.38rem;
 }
 
-.theme-toggle {
+.theme-toggle,
+.contact-copy {
   min-height: 2.5rem;
   padding: 0.45rem 0.7rem;
   border: 1px solid var(--line);
@@ -155,8 +156,24 @@ button:focus-visible {
   cursor: pointer;
 }
 
-.theme-toggle:hover {
+.theme-toggle:hover,
+.contact-copy:hover {
   border-color: var(--accent);
+}
+
+.contact-copy {
+  min-height: 2.75rem;
+  font-size: 1rem;
+}
+
+.contact-copy:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.copy-status {
+  min-height: 3em;
+  margin: 0.75rem 0;
 }
 
 .site-main {

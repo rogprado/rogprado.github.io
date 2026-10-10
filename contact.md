@@ -14,5 +14,9 @@ permalink: /contact/
   <p class="contact-email">
     <a href="mailto:rodrigo_prado@berkeley.edu">rodrigo_prado@berkeley.edu</a>
   </p>
-  <p class="small-note">This address is public. The link opens an email app, so visitors need an email app configured to use it.</p>
+  <button class="contact-copy" type="button" data-copy-email hidden>Copy email address</button>
+  <p class="small-note copy-status" role="status" aria-live="polite" aria-atomic="true" data-copy-status></p>
+  <p class="small-note">This address is public. The email link opens your configured email app. You can also select and copy the address into your preferred email service.</p>
 </article>
+
+<script src="{{ '/assets/js/contact.js' | relative_url }}" defer></script>
